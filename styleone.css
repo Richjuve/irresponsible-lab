@@ -11,7 +11,7 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  position: -webkit-sticky;
+  position: -webkit-sticky; /*Safari 需要*/
 }
 
 li {
