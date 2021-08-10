@@ -10,7 +10,6 @@ ul {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  width: 10%;
   height: 100%;
   overflow: auto;
   /*position: sticky;
@@ -24,14 +23,14 @@ div {
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 50px;
+  padding: 1em;
   text-decoration: none;
 }
 
@@ -51,7 +50,7 @@ h1 {
 }
 
 p{
-	margin-left: 0px;
+	margin-left: 10%;
 	text-indent:2em;
 	font-family: Times;
   font-size: 1.1em;
@@ -66,5 +65,5 @@ a{
 
 address{
 	text-align: right;
-	margin-right: 20px;
+	margin-right: 5%;
 }
