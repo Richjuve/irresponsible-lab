@@ -1,5 +1,6 @@
 body {
-	background-color: #F0F8FA
+  margin: 0;
+	background-color: #FFFAFA
 }
 
 ul {
@@ -9,10 +10,17 @@ ul {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  top: 0;
-  width: 100%;
-  position: sticky;
+  width: 10%;
+  height: 100%;
+  overflow: auto;
+  /*position: sticky;
   position: -webkit-sticky; /*Safari 需要*/
+}
+
+div {
+  margin-left:10%;
+  padding:1px 16px;
+  height:700px;
 }
 
 li {
@@ -43,10 +51,10 @@ h1 {
 }
 
 p{
-	margin-left: 20px;
+	margin-left: 0px;
 	text-indent:2em;
-	font-family: American Typewriter;
-  font-size: 1.3em;
+	font-family: Times;
+  font-size: 1.1em;
 	color: black;
 	text-decoration: none;
 }
