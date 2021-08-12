@@ -1,6 +1,7 @@
 body {
   margin: 0;
-	background-color: #FFFAFA
+	background-color: #F5F5F7
+  border-radius: 50px;
 }
 
 ul {
@@ -8,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #1D1D1F;
   position: fixed;
   width: 15%;
   height: 100%;
@@ -18,7 +19,8 @@ ul {
 }
 
 div {
-  margin-left:10%;
+  margin-left:15.5%;
+  margin-right:0.5%;
   padding:1px 16px;
   height:700px;
 }
@@ -29,7 +31,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #F5F5F7;
   text-align: center;
   padding: 1em;
   text-decoration: none;
@@ -37,7 +39,7 @@ li a {
 
 /* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
 li a:hover {
-  background-color: #111;
+  background-color: hsl(240, 100%, 10%);
 }
 
 .active {
@@ -51,20 +53,21 @@ h1 {
 }
 
 p{
-	margin-left: 10%;
+	margin-left: 0%;
 	text-indent:2em;
 	font-family: Times;
   font-size: 1.1em;
-	color: black;
+	color: #1D1D1F;
 	text-decoration: none;
 }
 
 a{
-	color: black;
+	color: #1D1D1F;
 	text-decoration: none;
 }
 
 address{
 	text-align: right;
-	margin-right: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
